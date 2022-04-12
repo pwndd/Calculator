@@ -28,8 +28,6 @@ elif op == '3':
 elif op == '4':
     if num2 == 0:
         print("Imagine that you have zero cookies and you split them evenly among zero friends. How many cookies does each person get? See? It doesn't make sense. And Cookie Monster is sad that there are no cookies, and you are sad that you have no friends. Basically you're stupid.")
-    elif num1 == 0:
-        print("Imagine that you have zero cookies and you split them evenly among zero friends. How many cookies does each person get? See? It doesn't make sense. And Cookie Monster is sad that there are no cookies, and you are sad that you have no friends. Basically you're stupid.")
     else:
         print(str(num1) + ' / ' + str(num2) + ' = ' + str(divide(num1, num2)))
 elif op == '5':
