@@ -20,14 +20,14 @@ print('4. Divide')
 print('5. Power')
 op = input('Enter an operator: ')
 if op == '1':
-    print(num1 + ' + ' + num2 + ' = ' + add(num1, num2))
+    print(str(num1) + ' + ' + str(num2) + ' = ' + str(add(num1, num2)))
 elif op == '2':
-    print(num1 + ' - ' + num2 + ' = ' + subtract(num1, num2))
+    print(str(num1) + ' - ' + str(num2) + ' = ' + str(subtract(num1, num2)))
 elif op == '3':
-    print(num1 + ' * ' + num2 + ' = ' + multiply(num1, num2))
+    print(str(num1) + ' * ' + str(num2) + ' = ' + str(multiply(num1, num2)))
 elif op == '4':
-    print(num1 + ' / ' + num2 + ' = ' + divide(num1, num2))
+    print(str(num1) + ' / ' + str(num2) + ' = ' + str(divide(num1, num2)))
 elif op == '5':
-    print(num1 + ' ^ ' + num2 + ' = ' + power(num1, num2))
+    print(str(num1) + ' ^ ' + str(num2) + ' = ' + str(power(num1, num2)))
 else:
-    print('Invalid operator')
+    print('Invalid operation.')
